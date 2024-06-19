@@ -636,6 +636,11 @@ progress {
     height: auto
 }
 
+.img-rsvp {
+    max-width: 15rem;
+    height: auto
+}
+
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
@@ -2789,6 +2794,10 @@ progress {
     .modal-fullscreen-sm-down .modal-body {
         overflow-y: auto
     }
+
+    .img-rsvp {
+        max-width: 10rem;
+    }
 }
 
 @media(max-width: 767.98px) {
@@ -2812,6 +2821,10 @@ progress {
 
     .modal-fullscreen-md-down .modal-body {
         overflow-y: auto
+    }
+
+    .img-rsvp {
+        max-width: 10rem;
     }
 }
 
@@ -2837,6 +2850,10 @@ progress {
     .modal-fullscreen-lg-down .modal-body {
         overflow-y: auto
     }
+
+    .img-rsvp {
+        max-width: 10rem;
+    }
 }
 
 @media(max-width: 1199.98px) {
@@ -2860,6 +2877,10 @@ progress {
 
     .modal-fullscreen-xl-down .modal-body {
         overflow-y: auto
+    }
+
+    .img-rsvp {
+        max-width: 10rem;
     }
 }
 
