@@ -1,21 +1,21 @@
 #hero {
-    background-image: url("../images/bg-hero.jpg")
+    background-image: url("../images/bg-hero.webp")
 }
 
 #the-wedding-event {
-    background-image: url("../images/bg-the-wedding-event.jpg")
+    background-image: url("../images/bg-the-wedding-event.webp")
 }
 
 #proposed {
-    background-image: url("../images/bg-proposed.jpg")
+    background-image: url("../images/bg-proposed.webp")
 }
 
 #wedding-gifts {
-    background-image: url("../images/bg-wedding-gifts.jpg")
+    background-image: url("../images/bg-wedding-gifts.webp")
 }
 
 footer {
-    background-image: url("../images/bg-footer.jpg")
+    background-image: url("../images/bg-footer.webp")
 }
 
 /*# sourceMappingURL=custom.min.css.map */
