@@ -7696,13 +7696,13 @@ header {
         margin-top: -20px;
         position: fixed;
         right: 15px;
-        top: 50px
+        top: 37px
     }
 }
 
 @media(max-width: 991.98px) {
     .navbar-brand {
-        height: 100px
+        height: 74px
     }
 
     .navbar-nav>.nav-item {
