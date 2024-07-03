@@ -1377,26 +1377,6 @@
         })
     </script>
 
-    <script>
-        function getVisitorInfo() {
-            fetch('https://api.ipify.org?format=json')
-                .then(response => response.json())
-                .then(data => {
-                    const ip = data.ip;
-                    const userAgent = navigator.userAgent;
-                    fetch('https://script.google.com/macros/s/AKfycby1PZR5mNfZO1am__ruPImCa8V2dLB2ebyaQ4YS6uDjSW1DtPWUcUKT9pDWOwchQc1BaQ/exec', {
-                        method: 'POST',
-                        body: JSON.stringify({ ip: ip, userAgent: userAgent }),
-                        headers: { 'Content-Type': 'application/json' }
-                    })
-                        .then(response => response.json())
-                        .then(data => console.log(data))
-                        .catch(error => console.error('Error:', error));
-                });
-        }
-        getVisitorInfo();
-    </script>
-
     <!-- Required JS files -->
     <script src="js/script.min.js"></script>
 
