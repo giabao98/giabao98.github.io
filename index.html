@@ -860,18 +860,6 @@
                                             <div class="item">
                                                 <figure>
                                                     <div class="gallery-img">
-                                                        <a href="images/album_5.webp" data-gall="photosss">
-                                                            <img src="images/album_5.webp" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <!-- //.gallery-img -->
-                                                </figure>
-                                            </div>
-                                            <!-- //.item -->
-
-                                            <div class="item">
-                                                <figure>
-                                                    <div class="gallery-img">
                                                         <a href="images/album_6.webp" data-gall="photosss">
                                                             <img src="images/album_6.webp" alt="">
                                                         </a>
@@ -1292,18 +1280,6 @@
                                             <div class="item">
                                                 <figure>
                                                     <div class="gallery-img">
-                                                        <a href="images/album_37.webp" data-gall="photosss">
-                                                            <img src="images/album_37.webp" alt="">
-                                                        </a>
-                                                    </div>
-                                                    <!-- //.gallery-img -->
-                                                </figure>
-                                            </div>
-                                            <!-- //.item -->
-
-                                            <div class="item">
-                                                <figure>
-                                                    <div class="gallery-img">
                                                         <a href="images/album_38.webp" data-gall="photosss">
                                                             <img src="images/album_38.webp" alt="">
                                                         </a>
@@ -1395,7 +1371,9 @@
             </div>
             <!-- Modal - How to Get There End -->`;
             appendHtml(document.body, htmlElm);
-            btnAlbumElm.click();
+            setTimeout(() => {
+                btnAlbumElm.click();
+            });
         })
     </script>
 
